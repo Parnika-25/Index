@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  header{
+    border:1px solid red;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  li{
+    list-style: none;
+    padding: 32px 16px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .secondaryNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondaryNav div{
+    margin:0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .SearchBar{
+    padding: 12px 8px;
+    background-color: rgb(238, 238, 238);
+  }
+  .search{
+    margin:0px 10px;
+    font-size: 12px;
+    color: grey;
+    border-radius: 4px;
+  }
+  input{
+  border:none;
+  outline: none;
+  width:320px;
+  background-color: transparent;
+  font-size: 15px;
+  }
+  h1{
+    color: brown;
+  }
+  h5{
+    color:brown;
+  }
+  .brand-rush {
+    text-align: center;
+    background-color: #b35900;
+    color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+  }.brand-rush h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .brand-rush p {
+    font-size: 18px;
+  }
+  
+  .image-grid img{
+    height:350;
+    width:250;
+    background-size: contain;
+    margin-right: 20px;
+  }
+  
+  .shop-section{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    background-color: #e2e7e6;
+    padding: 10px;
+  }
+  .box {
+    height: 550px;
+    border: 2px solid black;
+    width: 24%; 
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+  }
+  .box-img {
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box {
+    flex-basis: 30%;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #36454F; 
+    color: white;
+    padding: 20px;
+}
+
+.foot-panel {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.column {
+    flex: 1; 
+    min-width: 200px; 
+}
+
+.column h1, .column h4 {
+    margin-bottom: 10px;
+    color: #FFB6C1; 
+}
+
+.column p {
+    margin: 5px 0;
+}
+
+.app-icons img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons .icon {
+    margin-right: 15px;
+}
